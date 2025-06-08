@@ -1,4 +1,4 @@
-package com.example.instragram.ui.theme
+package com.example.instagram.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

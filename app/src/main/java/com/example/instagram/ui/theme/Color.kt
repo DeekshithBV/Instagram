@@ -1,4 +1,4 @@
-package com.example.instragram.ui.theme
+package com.example.instagram.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
