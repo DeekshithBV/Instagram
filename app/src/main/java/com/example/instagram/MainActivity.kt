@@ -8,7 +8,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.compose.rememberNavController
+import com.example.instagram.navigation.AppNavHost
 import com.example.instagram.presentation.main.MainScreen
+import com.example.instagram.presentation.navigation.NavGraph
 import com.example.instagram.ui.theme.InstragramTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -18,15 +21,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            /*InstragramTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
-            }*/
             MainScreen()
+            //AppNavHost()
         }
     }
 }

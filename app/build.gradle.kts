@@ -176,4 +176,7 @@ dependencies {
     implementation(libs.firebase.auth.ktx)
     implementation("com.google.android.gms:play-services-auth:20.7.0")
     implementation(libs.google.firebase.messaging)
+    implementation(libs.firebase.storage.ktx)
+    implementation(libs.firebase.firestore.ktx)
+
 }
